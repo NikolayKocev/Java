@@ -1,0 +1,49 @@
+package cicle;
+
+public class Bulgarian extends Human {
+	String nationality = new String("Bulgarian");
+	String name= new String();
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void name(String name) {
+		this.name= name;
+	}
+ 
+	public int getYears() {
+		// TODO Auto-generated method stub
+		return super.getYears();
+	}
+
+	public void setYears(int years) {
+		// TODO Auto-generated method stub
+		super.setYears(years);
+	}
+
+	public int getHight() {
+		// TODO Auto-generated method stub
+		return super.getHight();
+	}
+
+	public void setHight(int hight) {
+		// TODO Auto-generated method stub
+		super.setHight(hight);
+	}
+
+	public int getWeight() {
+		// TODO Auto-generated method stub
+		return super.getWeight();
+	}
+
+	public void setWeight(int weight) {
+		// TODO Auto-generated method stub
+		super.setWeight(weight);
+	}
+	
+
+}

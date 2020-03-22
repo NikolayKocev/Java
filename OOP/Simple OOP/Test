@@ -1,0 +1,26 @@
+package cicle;
+
+import java.util.Scanner;
+
+public class Test {
+
+	
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		Bulgarian human = new Bulgarian();
+		human.name("mitko");
+		System.out.println("enter age");
+		human.setYears(sc.nextInt());
+		System.out.println("Enter hight");
+		human.setHight(sc.nextInt());
+		System.out.println("Enter weight");
+		human.setWeight(sc.nextInt());
+		
+		System.out.println(human.getName()+" "+ human.getYears()+" "+human.getWeight()+" "+human.getHight());
+
+	}
+
+}
+
+
+
